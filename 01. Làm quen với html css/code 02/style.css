@@ -1,0 +1,70 @@
+/* Reset css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fffcf4;
+}
+
+.box {
+  background-color: #fff;
+  width: 270px;
+  border-radius: 12px;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 17px 0;
+}
+
+.item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  cursor: pointer;
+  padding: 7px 24px;
+}
+
+.item:hover {
+  background: #f9f9f9;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.item-img {
+  background: #fff9e8;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.item-img img {
+  display: block;
+}
+
+/* For icon 02 */
+.back-img-02 {
+  background-color: #fcefff;
+}
+
+/* For icon 03 */
+.back-img-03 {
+  background-color: #ebeaff;
+}
+
+.item-title {
+  color: #5f5b53;
+  font-size: 14px;
+  line-height: 185.714%;
+}
+
+.item-main {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 166.667%;
+}
