@@ -104,8 +104,10 @@ body > div {
   border-left: 4px solid;
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
   transition: all linear 0.3s;
-  // Forward: dừng tại điểm cuối cùng của animation
-  animation: slide 0.3s ease-in-out, fadeOut linear 1s 3s forwards;
+
+  & + & {
+    margin-top: 16px;
+  }
 
   &__icon,
   &__close {
