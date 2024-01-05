@@ -1,0 +1,12 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "sass styles.scss css/styles.css -w"
+  },
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
