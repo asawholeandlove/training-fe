@@ -1,12 +1,14 @@
 import MediaQueries from "./lesson00/MediaQueries/MediaQueries";
+import PseudoClasses from "./lesson00/PseudoClasses/PseudoClasses";
 
 function App() {
   return (
     <div className="p-10">
-      {/* Lesson 01 */}
-      <MediaQueries />
+      {/* Module 00 */}
+      {/* <MediaQueries /> */}
+      <PseudoClasses />
 
-      {/* Lesson 02 */}
+      {/* Module 01 */}
     </div>
   );
 }
