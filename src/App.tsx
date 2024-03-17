@@ -1,8 +1,12 @@
+import MediaQueries from "./lesson00/MediaQueries/MediaQueries";
+
 function App() {
   return (
-    <div>
-      <h1 className="text-4xl">Hello World</h1>
-      <p>My first React app</p>
+    <div className="p-10">
+      {/* Lesson 01 */}
+      <MediaQueries />
+
+      {/* Lesson 02 */}
     </div>
   );
 }
